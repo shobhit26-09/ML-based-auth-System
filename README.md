@@ -41,3 +41,41 @@ graph TD;
     B --> C[Augment Data];
     C --> D[Train Model];
     D --> E[Authenticate User];
+```
+🌈 Features in Detail
+
+📥 Data Collection
+
+Collect voice samples from multiple users.
+
+Augment the data for better accuracy using techniques like:
+
+🎵 Pitch shifting
+
+⏩ Time stretching
+
+🌫️ Noise addition
+
+📊 Model Training
+
+Train an SVM classifier for user authentication.
+
+Train an Isolation Forest for anomaly detection.
+
+🔍 Authentication
+
+Real-time voice matching.
+
+Secure user authentication with threshold-based similarity scoring.
+
+📃 Logs and Models
+
+Authentication Logs: Stores all attempts with timestamps.
+
+Model Storage: Trained models are saved for future use.
+
+📜 License
+This project is licensed under the MIT License.
+
+⭐ Like the Project?
+If you find this project helpful, feel free to give it a ⭐ on GitHub! 💖
